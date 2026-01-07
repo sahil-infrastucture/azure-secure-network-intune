@@ -177,3 +177,13 @@ It captures:
 
 This repository represents a **learning lab**, not a production deployment.  
 Design choices prioritize clarity and understanding over enterprise scale.
+
+## Compute Note
+
+Virtual machine deployment was intentionally excluded from this project due to Azure Free Trial
+compute quota and regional capacity restrictions. These limitations were investigated across
+multiple regions and SKUs and documented as part of real-world cloud constraints.
+
+The project focuses on production-aligned network and security infrastructure using Terraform,
+which is commonly designed and validated independently of compute provisioning.
+
